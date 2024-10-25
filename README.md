@@ -68,7 +68,7 @@ python -m torch.distributed.launch --nproc_per_node=6 main_pretrain.py \
     --data_path ${IMAGENET_DIR}
 ``` 
 - Here the effective batch size is 256 (`batch_size` per gpu) * 6 (gpus) = 1536.
-- Training time is ~210h in 6 A4 GPUs (800 epochs).
+- Training time is ~210h in 6 A40 GPUs (800 epochs).
 
 
 ## Developing OSFound-enhanced classification model

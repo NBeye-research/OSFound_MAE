@@ -2,10 +2,6 @@
 
 ## Introduction
 
-<p align="center">
-  <img src="pic/OECM_structure.png" width="600">
-</p>
-
 This repository contains the source code for developing the ocular surface foundation model (OSFound) and the OSFound-enhanced classification model (OECM). The OSFound is pre-trained on 756,077 unlabeled ocular surface images with Masked Autoencoders([MAE](https://github.com/facebookresearch/mae)), and it has demonstrated efficacy in classifying ocular surface tumors (OSTs) using limited datasets of OST images labeled by histopathological results. We believe that OSFound can effectively improve performance in ocular surface image classification tasks. For the original pretraining code of Masked Autoencoders, please refer to [MAE](https://github.com/facebookresearch/mae).
 
 
